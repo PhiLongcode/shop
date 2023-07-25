@@ -61,19 +61,19 @@ const Cart = () => {
             }
             return uniqueItems;
           }, []).map((item) => (
-            <div class="modal-body">
-            <div class="cart-row">
-                <span class="cart-item cart-header cart-column">Tên sản phẩm</span>
-                <span class="cart-price cart-header cart-column">Giá</span>
+            <div className="modal-body">
+            <div className="cart-row">
+                <span className="cart-item cart-header cart-column">Tên sản phẩm</span>
+                <span className="cart-price cart-header cart-column">Giá</span>
             </div>
-            <div class="cart-items" key={item.id}>
-                <div class="cart-row">
-                <div class="cart-item cart-column">
-                    <img class="cart-item-image" src={item.image} alt={item.name}  width="100" height="100"/>
-                    <span class="cart-item-title">{item.name}</span>
+            <div className="cart-items" key={item.id}>
+                <div className="cart-row">
+                <div className="cart-item cart-column">
+                    <img className="cart-item-image" src={item.image} alt={item.name}  width="100" height="100"/>
+                    <span className="cart-item-title">{item.name}</span>
                 </div>
-                <span class="cart-price cart-column">{`Price: $${item.price}`}</span>
-                <div class="cart-quantity cart-column">
+                <span className="cart-price cart-column">{`Price: $${item.price}`}</span>
+                <div className="cart-quantity cart-column">
                     <div className="d-flex">
                       <button
                         className="btn btn-sm btn-primary mr-2"
@@ -90,7 +90,7 @@ const Cart = () => {
                         +
                       </button>
                     </div>
-                    <button class="btn btn-danger" onClick={() => handleDelete(item.id)} type="button">Xóa</button>
+                    <button className="btn btn-danger" onClick={() => handleDelete(item.id)} type="button">Xóa</button>
                 </div>
             </div>
           </div>

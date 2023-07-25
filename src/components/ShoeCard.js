@@ -21,22 +21,22 @@ const ShoeCard = ({ shoe }) => {
     }
   };
   return (
-    <div class="product">
+    <div className="product">
 
-<div class="row row-cols-1 g-4">
-        <div class="col">
-          <div class="card h-100 text-center">
+<div className="row row-cols-1 g-4">
+        <div className="col">
+          <div className="card h-100 text-center">
             <img
               src={shoe.image} alt="{shoe.name}"
-              class="card-img img-fluid"
+              className="card-img img-fluid"
             />
-            <div class="card-body">
-              <h5 class="card-title">
+            <div className="card-body">
+              <h5 className="card-title">
                 <Link to={`/product/${shoe.id}`}>{shoe.name}</Link>
-                <p class="card-text">{`Giá: $${shoe.price}`}</p>
+                <p className="card-text">{`Giá: $${shoe.price}`}</p>
               </h5>
-              <p class="card-textt"></p>
-              <div class="d-grid col-10 mx-auto">
+              <p className="card-textt"></p>
+              <div className="d-grid col-10 mx-auto">
               {!addedToCart && (
           <button className="btn btn-secondary mr-2" onClick={addToCart}>
             Add to Cart

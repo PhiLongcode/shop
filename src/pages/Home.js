@@ -29,28 +29,28 @@ const Home = () => {
 
   return (
     <div className="container mt-4">
-            <img class="img-fluid"
+            <img className="img-fluid"
               src="img/slide-img1.jpg"
               alt="..."
               height="450px"
             />
-             <div class="banner-body">
-      <div class="container">
-        <div class="row banner3">
-          <div class="col-4">
-            <div class="thumb">
+             <div className="banner-body">
+      <div className="container">
+        <div className="row banner3">
+          <div className="col-4">
+            <div className="thumb">
               <img src="img/banner_1.jpg" alt="" />
               <img src="img/banner_2.jpg" alt="" />
             </div>
           </div>
 
-          <div class="col-4">
-            <div class="thumb">
+          <div className="col-4">
+            <div className="thumb">
               <img src="img/banner_3.jpg" alt="" />
             </div>
           </div>
-          <div class="col-4">
-            <div class="thumb">
+          <div className="col-4">
+            <div className="thumb">
               <img src="img/banner_4.jpg" alt="" />
               <img src="img/banner_5.jpg" alt="" />
             </div>
@@ -74,7 +74,7 @@ const Home = () => {
             <ShoeCard shoe={shoe} />
           </div>
         ))}
-        <div class="more">
+        <div className="more">
       <a href="#sanPham">XEM TẤT CẢ</a>
     </div>
     <h2 className="titlie">SẢN PHẨM BÁN CHẠY NHẤT</h2>
@@ -83,15 +83,15 @@ const Home = () => {
             <ShoeCard shoe={shoe} />
           </div>
         ))}
-        <div class="more">
+        <div className="more">
       <a href="#sanPham">XEM TẤT CẢ</a>
     </div>
 
-    <div class="body_banner">
-      <div class="row">
-        <div class="col-3 imggg"><img src="img/m_bn_2_1.jpg" alt="" /></div>
-        <div class="col-6"><img src="img/m_bn_2_2.jpg" alt="" /></div>
-        <div class="col-3 imggg"><img src="img/m_bn_2_3.jpg" alt="" /></div>
+    <div className="body_banner">
+      <div className="row">
+        <div className="col-3 imggg"><img src="img/m_bn_2_1.jpg" alt="" /></div>
+        <div className="col-6"><img src="img/m_bn_2_2.jpg" alt="" /></div>
+        <div className="col-3 imggg"><img src="img/m_bn_2_3.jpg" alt="" /></div>
       </div>
     </div>
     <h2 className="titlie">SẢN PHẨM GIẢM GIÁ</h2>
@@ -100,7 +100,7 @@ const Home = () => {
             <ShoeCard shoe={shoe} />
           </div>
         ))}
-        <div class="more">
+        <div className="more">
       <a href="#sanPham">XEM TẤT CẢ</a>
     </div>
       </div>

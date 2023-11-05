@@ -96,9 +96,9 @@ const Home = () => {
     </div>
     <h2 className="titlie">SẢN PHẨM GIẢM GIÁ</h2>
         {filteredShoes.slice(8, 11).map((shoe) => (
-          <div key={shoe.id} className="col-md-4 mb-4">
-            <ShoeCard shoe={shoe} />
-          </div>
+            <div key={shoe.id} className="col-md-4 mb-4">
+              <ShoeCard shoe={shoe} />
+            </div>
         ))}
         <div className="more">
       <a href="#sanPham">XEM TẤT CẢ</a>

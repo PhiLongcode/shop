@@ -39,39 +39,39 @@ const Header = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul className="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
                     <li className="nav-item">
-                      <a className="nav-link" aria-current="page" href=""
+                      <a className="nav-link" aria-current="page" href="/"
                         >TRANG CHỦ</a>
                     </li>
                     <li className="nav-item">
                       <a
                         className="nav-link active"
                         aria-current="page"
-                        href="/"
+                        href="/gioi-thieu"
                         >GIỚI THIỆU</a>
                     </li>
                     <li className="nav-item">
                       <a
                         className="nav-link active"
                         aria-current="page"
-                        href="/"
+                        href="/san-pham"
                         >SẢN PHẨM</a>
                     </li>
                     <li className="nav-item">
                       <a
                         className="nav-link active"
                         aria-current="page"
-                        href="/"
+                        href="/tin-tuc"
                         >TIN TỨC</a>
                     </li>
                     <li className="nav-item">
                       <a
                         className="nav-link active"
                         aria-current="page"
-                        href="/"
+                        href="/lien-he"
                         >LIÊN HỆ</a>
                     </li>
                     <li className="nav-item">
-                    <a href="#" className="nav-link active" onClick={handleCartClick}>
+                    <a href="/cart" className="nav-link active" onClick={handleCartClick}>
                       GIỎ HÀNG: {cartItems.length > 0 && <span className="badge badge-primary">{cartItems.length}</span>}
                     </a>
                   </li>
